@@ -1,15 +1,15 @@
 /* секция Наші особливості */
 
-.list-qualities {
+.qualities {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-.item-qualities {
+.qualities__item {
   width: 270px;
 }
 
-.item-qualities__icon-box {
+.qualities__icon-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +21,7 @@
   background-color: var(--light-bg-color);
 }
 
-.item-qualities__title {
+.qualities__title {
   margin-bottom: 10px;
 
   font-size: 14px;
@@ -30,7 +30,7 @@
   text-transform: uppercase;
 }
 
-.item-qualities__text {
+.qualities__text {
   color: var(--secondary-txt-color);
   line-height: 1.71;
   letter-spacing: 0.03em;

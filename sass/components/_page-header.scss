@@ -49,11 +49,6 @@ header {
   &:focus {
     color: var(--accent-txt-color);
   }
-
-  &:hover .contacts-icon,
-  &:focus .contacts-icon {
-    fill: var(--accent-txt-color);
-  }
 }
 .link.current {
   position: relative;
@@ -75,4 +70,9 @@ header {
 .contacts-icon {
   fill: var(--secondary-txt-color);
   transition: fill 250ms var(--timing-function);
+
+  .link-address:hover &,
+  .link-address:focus & {
+    fill: var(--accent-txt-color);
+  }
 }

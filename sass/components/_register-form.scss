@@ -32,9 +32,7 @@
   &:focus {
     outline-color: var(--accent-bg-color);
   }
-  &:focus + .form-icon {
-    fill: var(--accent-bg-color);
-  }
+ 
 }
 
 .input-lable {
@@ -52,6 +50,12 @@
   bottom: 11px;
   left: 12px;
   transition: fill 250ms var(--timing-function);
+
+
+  .register-form-input:focus + & {
+    fill: var(--accent-bg-color);
+  }
+
 }
 
 .register-form-textarea {

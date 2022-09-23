@@ -62,7 +62,7 @@
   text-transform: uppercase;
 }
 
-.socials-item__link--dark {
+.socials__link--BGdark {
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms var(--timing-function);
 
@@ -71,6 +71,6 @@
     background-color: var(--accent-bg-color);
   }
 }
-.socials-item__icon--light {
+.socials__icon--fill-light {
   fill: var(--light-txt-color);
 }

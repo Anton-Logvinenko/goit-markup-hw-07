@@ -20,13 +20,17 @@
     border-color: var(--accent-bg-color);
   }
 
-  &:hover .item-client__icon,
-  &:focus .item-client__icon {
+  .item-client__link:hover .item-client__icon,
+  .item-client__link:focus .item-client__icon {
     fill: var(--accent-bg-color);
   }
 }
 .item-client__icon {
   transition: fill 250ms var(--timing-function);
-
   fill: var(--icons_color);
+
+  .item-client__link:hover &,
+  .item-client__link:focus & {
+    fill: var(--accent-bg-color);
+  }
 }
